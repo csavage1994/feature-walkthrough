@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: blue;
+}
+
+.content-container {
+  height: calc(100vh - 50px);
+  width: 100vw;
+  background-color: blue;
+}
+
+.row {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 0.25em;
+}
+
+.row-title {
+  background: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: gray;
+  color: #fefefe;
+}
+
+.left-header-element {
+  height: 100%;
+  width: 50px;
+  background-color: teal;
+  display: inline-block;
+}
+
+.site-title {
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+
+.modal-background {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.6);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.modal-container {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 40%;
+  width: 300px;
+  background-color: white;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  border-radius: 1px;
+}
+
+.modal-content {
+  width: 100%;
+  padding: 0.5em 0 0.5em 0;
+  font-size: 16px;
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.button {
+  height: 30px;
+  width: 60px;
+  border-radius: 1px;
+  background-color: blue;
+  border-width: 1px;
+  border-color: blue;
+  color: #fefefe;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.modal-close {
+  font-size: 14px;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.modal-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 0 0 0;
+}
+
+.image {
+  height: 100%;
+  width: 100px;
+  background-color: green;
+}
